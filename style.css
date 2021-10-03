@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 80%;
+}
+
 .header {
     padding: 10px;
     display: flex;
@@ -26,11 +30,13 @@ body {
 
 .workshop {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
+    width: 100%;
+    height: 1970px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 30px;
-    gap: 15px;
+    padding-top: 100px;
+    gap: 10px;
     
 }
 
@@ -94,10 +100,7 @@ body {
     font-size: 1.4em;
 }
 
-.inscricao input, button {
-    height: 60px;
-    margin-bottom: 20px;
-}
+
 .inscricao-input {
     padding-left: 20px;
     background-color: black;
@@ -118,7 +121,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .checked p{
@@ -127,8 +129,8 @@ body {
 
 .checked input{
     margin: 0;
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    
     margin-right: 10px;
 }
 
@@ -148,3 +150,374 @@ body {
 .security img {
     margin: 0 15px;
 }
+
+.video-area {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    text-align: center;
+}
+
+.video {
+    margin: 0 auto;
+
+}
+
+.video h3 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+#image-tocha {
+    position: relative;
+    top: 250px;
+    right: 60px;
+}
+
+
+
+.workshop2 {
+    width: 100%;
+    padding: 20px;
+    background-image: url(imagens/BG-FOTOZANG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.zang-img {
+    position: relative;
+    top: 20px;
+}
+
+.workshop2 img {
+    margin-top: 100px;
+}
+
+.workshop2-text {
+    max-width: 600px;
+    margin-top: 300px;
+   
+    text-align: justify;  
+}
+
+.workshop2-text p {
+    font-size: 1.1em;
+
+}
+
+.workshop2 h2 {
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.cronograma {
+    margin: 0 auto;
+    text-align: center;  
+    padding: 100px; 
+}
+
+.cronograma h2 {
+    
+    font-size: 2.0em;
+    font-weight: 900;
+}
+
+.datas {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.molde {
+    width: 450px;
+    height: 400px;
+    margin: 0 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg-tape {
+    background-image: url(imagens/TAPE\ PRETO\ 1.png);
+    background-position: center;
+    height: 100%;
+    width: 100%;   
+}
+
+.bg-purple {
+    background-color: #2e0233;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bg-tape h2 {
+    padding-top: 75px;
+}
+
+.left-align {
+    padding: 10px;
+    text-align: left;
+    color: #1a001d;
+    font-weight: 700;
+}
+
+.left-align h2 {
+    text-align: center;
+    width: 130px;
+    margin: 0;
+}
+
+.button {
+    width: 100%;
+    height: 70px;
+    margin-top: 200px;
+    border-radius: 5px;
+    border-bottom: solid 10px rgb(14, 189, 174);
+}
+
+.bg-grey {
+    background-image: url(imagens/BG\ WS\ LP\ 1.png);
+    width: 100%;
+}
+.bg-white {
+    background-color: white;
+}
+
+.certificacao {
+    padding: 70px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.certificacao h3 {
+    font-size: 2.0em;
+}
+
+.certificacao-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    content: 50px;
+    margin: 50px 0;
+    gap: 70px;
+    color: white;
+    padding: 30px;
+    
+}
+
+.content {
+    border-bottom: solid 3px white;
+}
+
+.workshop3 {
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    gap: 15px;
+}
+.workshop-description3 {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 700px;
+    color: rgb(20, 1, 54);
+}
+
+.workshop-description3 h1 {
+    width: 180px;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 0;
+}
+
+.workshop-description3 p {
+    margin: 0%;
+    width: 60%;
+    text-align: left;
+    font-size: 1.5em;   
+}
+
+.correction {
+    padding: 12px;
+}
+
+.font3 {
+    width: 40%;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.font4 {
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+
+
+.font2 h2, button{  
+    font-size: 2.4em;
+    font-weight: 900;
+}
+
+.flex-row {
+ display: flex;
+ align-items: center;
+}
+
+
+
+.flex-row h2 {
+    font-family: 3em;
+}
+
+.inscricao3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 400px;
+    background-color: var(--bg-yellow);
+    height: 520px;
+    
+}
+.inscricao-top-tiitle3 {
+    font-size: 3em;
+}
+.inscricao3 .inscricao-top-tiitle {
+    font-size: 2.3em;
+}
+
+.inscricao3 h2, .inscricao-submit {
+    text-align: center;
+    
+}
+
+.tape1 {
+    position: relative;
+    top: -120%;
+    left: -20%;
+}
+
+.tape2 {
+    position: relative;
+    top: -20%;
+    left: 20%;
+}
+
+.botao {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto ;
+}
+
+.footer img{
+    color: black;
+}
+
+.flex-center-column { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.flex-center {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-container {
+    width: 50%;
+    font-size: 1.4em;
+}
+
+.footer1 {
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+.footer1 p {
+    margin-top: 0;
+}
+
+
+.footer2 p{
+    text-align: center;
+    width: 600px;
+}
+
+@media(max-width:1150px){
+
+}
+
+@media(max-width:1150px){
+    #image-tocha {
+        display: none;
+    }
+    iframe{
+        width: 500px;
+        height: 350px;
+    }
+
+    .workshop {
+        gap: 0;
+        height: 100%;
+    }
+    .workshop2 {
+        background-image: url(imagens/BG\ WS\ LP\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        color: white;
+    }
+    .zang-img, .workshop2-text {
+        margin: 0 auto;
+        
+    }
+    
+    }
+    .workshop2 img {
+        margin-top: 0px;
+        align-items: center;
+    }
+}   
