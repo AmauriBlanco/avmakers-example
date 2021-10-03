@@ -677,11 +677,15 @@ body, html{
     .workshop-description {
         width: 90%;
     }
+
+    .workshop-description3 {
+        width: 90%;
+    }
     .inscricao-area {
         width: 90%;
     }
     .workshop2-text {
-        width: 90%;
+        width: 100%;
     }
     .footer2 p {
         width: 90%;
@@ -707,6 +711,15 @@ body, html{
     .mobile-row {
         width: 100%;
         padding:0 ;
+        align-items: flex-start;
+    }
+    .flex-row {
+        text-align: left;
+        width: 50%;
+    }
+
+    .footer1 p, .footer2 p {
+        font-size: 0.7em;
     }
 }
     
