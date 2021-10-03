@@ -3,13 +3,15 @@
     --yellow-letter: #C9B23A;
     font-family: 'Montserrat', sans-serif;
 }
-body {
+body, html{
     padding: 0;
-    margin: 0;
+    margin: 0 ;
+    
 }
 
 .container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .header {
@@ -19,7 +21,8 @@ body {
     background-color: rgb(2, 0, 43);
 }
 
-#sticker-title {
+.sticker-title {
+    max-width: 100%;
     position: relative;
     top: -50px;
     left: 15px;
@@ -31,20 +34,36 @@ body {
 .workshop {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
     width: 100%;
-    height: 1970px;
+    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 100px;
     gap: 10px;
     
 }
 
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px ;
+    gap: 10px;
+}
+
+.div-bar img{
+    width: 100%;
+}
+
 .workshop-description {
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 40%;
+    width: 550px;
     color: #fff;
 }
 
@@ -151,57 +170,69 @@ body {
     margin: 0 15px;
 }
 
-.video-area {
-    display: grid;
-    grid-template-columns: 95% 5%;
-    text-align: center;
+.bg-tocha {
+    background-image: url(imagens/tocha\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 1100px 200px;
 }
 
 .video {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  0;
 
 }
 
 .video h3 {
-    margin: 0;
+    margin: 5px 0;
     font-size: 1.8em;
 }
 
-#image-tocha {
+.image-tocha {
     position: relative;
+    left: 1100px;
     top: 250px;
-    right: 60px;
+    height: 520px;
+    
+    
 }
-
+#image-tocha2 {
+    visibility: hidden;
+}
 
 
 .workshop2 {
+    height: 1500px;
     width: 100%;
-    padding: 20px;
     background-image: url(imagens/BG-FOTOZANG.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    top: -350px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap-reverse;
     justify-content: center;
+    position: relative;
+    
     
 }
 .zang-img {
-    position: relative;
-    top: 20px;
+    max-height: 900px;
+    max-width:700px ;
+    
+    
 }
 
 .workshop2 img {
-    margin-top: 100px;
+    vertical-align: bottom;
 }
 
 .workshop2-text {
-    max-width: 600px;
-    margin-top: 300px;
-   
+    
+    width: 500px;
+    margin-top: 700px;
     text-align: justify;  
+    vertical-align: bottom;
 }
 
 .workshop2-text p {
@@ -222,7 +253,7 @@ body {
 .cronograma {
     margin: 0 auto;
     text-align: center;  
-    padding: 100px; 
+    padding: 50px 50px; 
 }
 
 .cronograma h2 {
@@ -232,7 +263,7 @@ body {
 }
 
 .datas {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -242,9 +273,9 @@ body {
 }
 
 .molde {
-    width: 450px;
+    width: 400px;
     height: 400px;
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -266,7 +297,7 @@ body {
 }
 
 .bg-tape h2 {
-    padding-top: 75px;
+    padding-top: 40px;
 }
 
 .left-align {
@@ -283,8 +314,9 @@ body {
 }
 
 .button {
-    width: 100%;
-    height: 70px;
+    max-width: 500px;
+    width: 50%;
+    height: 80px;
     margin-top: 200px;
     border-radius: 5px;
     border-bottom: solid 10px rgb(14, 189, 174);
@@ -293,6 +325,7 @@ body {
 .bg-grey {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
     width: 100%;
+    
 }
 .bg-white {
     background-color: white;
@@ -300,7 +333,7 @@ body {
 
 .certificacao {
     padding: 70px;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -316,7 +349,7 @@ body {
 .certificacao-content {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
     content: 50px;
     margin: 50px 0;
     gap: 70px;
@@ -343,7 +376,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 700px;
+    width: 50%;
     color: rgb(20, 1, 54);
 }
 
@@ -373,7 +406,7 @@ body {
 
 .font4 {
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 900;
 }
 
@@ -436,7 +469,7 @@ body {
 
 .footer {
     width: 100%;
-    margin: 0 auto ;
+    
 }
 
 .footer img{
@@ -448,7 +481,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    
 }
 
 .flex-center {
@@ -456,6 +489,7 @@ body {
     margin-top: 20px;
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
     align-items: center;
     gap: 100px;
@@ -483,12 +517,50 @@ body {
     width: 600px;
 }
 
-@media(max-width:1150px){
+
+
+@media(max-width:1200px){
+    .workshop {
+        padding-top: 10PX;
+    }
+    
+    .workshop-description {
+        margin-bottom: 100px;
+    }
+
+    .bigger {
+        font-size: 2.3em;
+    }
+
+
+    .workshop2 {
+        background-image: url(imagens/BG\ WS\ LP\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .workshop2-text {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #image-tocha {
+        position: relative;
+        left: -200px;
+         display: none;
+     }
+     #image-tocha2 {
+        position: relative;
+        left: -200px;
+         display: none;
+     }
 
 }
 
-@media(max-width:1150px){
+
+@media(max-width:990px){
     #image-tocha {
+       position: relative;
+       left: -200px;
         display: none;
     }
     iframe{
@@ -514,10 +586,127 @@ body {
         margin: 0 auto;
         
     }
-    
-    }
     .workshop2 img {
         margin-top: 0px;
         align-items: center;
     }
-}   
+    
+    .bg-purple {
+        background-color: black;
+        text-align: center;
+        padding: 0;
+    }
+    .left-align {
+        background-color: black;
+        text-align: center;
+        color: #fff;
+        margin: 10px;
+        border-radius: 7px;
+        height: 150px;
+    }
+
+    .left-align h2 {
+        width: 100%;
+    }
+
+    .molde-mobile {
+        height: 550px;
+        margin: 30px 0;
+    }
+
+    .certificacao h3 {
+        text-align: center;
+    }
+    
+    
+    .button{
+        margin-top: 0px;
+        font-size: 1.1em;
+        border-color: black;
+    }
+    .certificacao {
+        padding: 0;
+    }
+
+    .certificacao-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .font3 {
+        width: 100%;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .workshop-description3 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px ;
+    }
+    
+    .workshop-description3 h1 {
+        width: 70%;
+    }
+    .workshop-description3 p {
+        width: 70%;
+        text-align: center;
+    }
+    .mobile-row {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-row {
+        width: 40%;
+    }
+    .flex-center {
+        gap: 0;
+    }
+}
+
+@media (max-width:700px) {
+    .zang-img {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+    .workshop-description {
+        width: 90%;
+    }
+    .inscricao-area {
+        width: 90%;
+    }
+    .workshop2-text {
+        width: 90%;
+    }
+    .footer2 p {
+        width: 90%;
+    }
+    .footer-container {
+        width: 90%;
+    }
+    .sticker-title {
+        
+    }
+    .datas {
+        width: 90%;
+        height: 100%;
+    }
+
+    .molde {
+        width: 90%;
+        height: 100%;
+    }
+    .font4 {
+        width: 100%;
+    }
+    .mobile-row {
+        width: 100%;
+        padding:0 ;
+    }
+}
+    
