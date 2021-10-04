@@ -11,7 +11,7 @@ body, html{
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -34,15 +34,23 @@ body, html{
 
 .workshop {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 100px;
-    gap: 10px;
-    
-    
+    gap: 10px; 
+}
+
+.paper {
+    background-image: url(imagens/papaer-wh.png);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 150px;
+    background-size: cover;
+    position: relative;
 }
 
 .flex {
@@ -173,11 +181,11 @@ body, html{
 
 
 /* pedestal de luz*/
-/* .bg-tocha {
+ .bg-tocha {
     background-image: url(imagens/tocha\ 2.png);
     background-repeat: no-repeat;
     background-position: 105% 350px;
-} */
+} 
 
 .video {
     display: flex;
@@ -193,38 +201,32 @@ body, html{
     font-size: 1.8em;
 }
 
-.bg-paper {
-    width: 111%;
-    background-image: url(imagens/BG-FOTOZANG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;  
-}
+
 
 
 .workshop2 {
-
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
+    align-items: center;
 }
 .zang-img {
-    max-height: 900px;
-    max-width:700px ;
+   
     
     
 }
 
 .workshop2 img {
+    position: relative;
+    height: 100%;
     vertical-align: bottom;
 }
 
 .workshop2-text {
-    
     width: 500px;
-    margin-top: 700px;
     text-align: justify;  
-    vertical-align: bottom;
+    
 }
 
 .workshop2-text p {
@@ -525,6 +527,10 @@ body, html{
         margin-bottom: 100px;
     }
 
+    .paper {
+        display: none;
+    } 
+
     .bigger {
         font-size: 2.3em;
     }
@@ -533,6 +539,9 @@ body, html{
         margin: 0;
     }
 
+    .bg-tocha {
+        background-image: none;
+    }
 
     .workshop2 {
         background-image: url(imagens/BG\ WS\ LP\ 1.png);
@@ -547,7 +556,7 @@ body, html{
     .bg-paper {
         width: 100%;
     }
-    
+
     .workshop2-text {
         width: 70%;
         margin: 0 ;
