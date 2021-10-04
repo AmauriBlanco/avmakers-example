@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body, html{
+    background-color: #2B163F;
     padding: 0;
     margin: 0 ;
     
@@ -33,14 +34,14 @@ body, html{
 
 .workshop {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
-    width: 100%;
-    height: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 100px;
     gap: 10px;
+    
     
 }
 
@@ -170,18 +171,20 @@ body, html{
     margin: 0 15px;
 }
 
-.bg-tocha {
+
+/* pedestal de luz*/
+/* .bg-tocha {
     background-image: url(imagens/tocha\ 2.png);
     background-repeat: no-repeat;
-    background-position: 1100px 200px;
-}
+    background-position: 105% 350px;
+} */
 
 .video {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:  0;
+    margin: 0 auto;
 
 }
 
@@ -190,31 +193,20 @@ body, html{
     font-size: 1.8em;
 }
 
-.image-tocha {
-    position: relative;
-    left: 1100px;
-    top: 250px;
-    height: 520px;
-    
-    
-}
-#image-tocha2 {
-    visibility: hidden;
+.bg-paper {
+    width: 111%;
+    background-image: url(imagens/BG-FOTOZANG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;  
 }
 
 
 .workshop2 {
-    height: 1500px;
-    width: 100%;
-    background-image: url(imagens/BG-FOTOZANG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    position: relative;
-    
-    
 }
 .zang-img {
     max-height: 900px;
@@ -363,6 +355,7 @@ body, html{
 }
 
 .workshop3 {
+    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -524,6 +517,7 @@ body, html{
 
 @media(max-width:1200px){
     .workshop {
+        width: 100%;
         padding-top: 10PX;
     }
     
@@ -535,16 +529,28 @@ body, html{
         font-size: 2.3em;
     }
 
+    .container{
+        margin: 0;
+    }
+
 
     .workshop2 {
         background-image: url(imagens/BG\ WS\ LP\ 1.png);
         background-repeat: no-repeat;
         background-size: cover;
         color: #fff;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
+
+    .bg-paper {
+        width: 100%;
+    }
+    
     .workshop2-text {
         width: 70%;
-        margin: 0 auto;
+        margin: 0 ;
     }
     #image-tocha {
         position: relative;
@@ -644,10 +650,11 @@ body, html{
     }
 
     .sticker-title3 {
+        width: 100%;
         margin: 0 auto;
         display: block;
         position: relative;
-        top: 30px;
+        top: 40px;
     }
 
     .inscricao3, .inscricao {
