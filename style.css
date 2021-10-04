@@ -3,11 +3,11 @@
     --yellow-letter: #C9B23A;
     font-family: 'Montserrat', sans-serif;
 }
+
 body, html{
     background-color: #2B163F;
     padding: 0;
-    margin: 0 ;
-    
+    margin: 0 ; 
 }
 
 .container {
@@ -79,8 +79,7 @@ body, html{
 .workshop-description p {
     margin: 20px 30px;
     text-align: center;
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
 }
 
 .description-botton {
@@ -128,7 +127,6 @@ body, html{
     font-size: 1.4em;
 }
 
-
 .inscricao-input {
     padding-left: 20px;
     background-color: black;
@@ -158,7 +156,6 @@ body, html{
 .checked input{
     margin: 0;
     width: 20px;
-    
     margin-right: 10px;
 }
 
@@ -193,7 +190,6 @@ body, html{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .video h3 {
@@ -201,20 +197,12 @@ body, html{
     font-size: 1.8em;
 }
 
-
-
-
 .workshop2 {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
-}
-.zang-img {
-   
-    
-    
 }
 
 .workshop2 img {
@@ -226,12 +214,10 @@ body, html{
 .workshop2-text {
     width: 500px;
     text-align: justify;  
-    
 }
 
 .workshop2-text p {
     font-size: 1.1em;
-
 }
 
 .workshop2 h2 {
@@ -251,7 +237,6 @@ body, html{
 }
 
 .cronograma h2 {
-    
     font-size: 2.0em;
     font-weight: 900;
 }
@@ -274,9 +259,9 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
+
 .bg-tape {
     background-image: url(imagens/TAPE\ PRETO\ 1.png);
     background-position: center;
@@ -318,9 +303,9 @@ body, html{
 
 .bg-grey {
     background-image: url(imagens/BG\ WS\ LP\ 1.png);
-    width: 100%;
-    
+    width: 100%;  
 }
+
 .bg-white {
     background-color: white;
 }
@@ -343,13 +328,11 @@ body, html{
 .certificacao-content {
     display: flex;
     justify-content: center;
-    
     content: 50px;
     margin: 50px 0;
     gap: 70px;
     color: white;
-    padding: 30px;
-    
+    padding: 30px; 
 }
 
 .content {
@@ -365,6 +348,7 @@ body, html{
     padding: 100px 0;
     gap: 15px;
 }
+
 .workshop-description3 {
     display: flex;
     flex-direction: column;
@@ -403,8 +387,6 @@ body, html{
     font-weight: 900;
 }
 
-
-
 .font2 h2, button{  
     font-size: 2.4em;
     font-weight: 900;
@@ -414,8 +396,6 @@ body, html{
  display: flex;
  align-items: center;
 }
-
-
 
 .flex-row h2 {
     font-family: 3em;
@@ -428,8 +408,7 @@ body, html{
     padding: 20px;
     max-width: 400px;
     background-color: var(--bg-yellow);
-    height: 520px;
-    
+    height: 520px; 
 }
 
 .sticker-title3 {
@@ -439,6 +418,7 @@ body, html{
 .inscricao-top-tiitle3 {
     font-size: 3em;
 }
+
 .inscricao3 .inscricao-top-tiitle {
     font-size: 2.3em;
 }
@@ -466,8 +446,7 @@ body, html{
 }
 
 .footer {
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .footer img{
@@ -479,7 +458,6 @@ body, html{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .flex-center {
@@ -505,17 +483,15 @@ body, html{
     border-bottom: solid 1px black;
     text-align: center;
 }
+
 .footer1 p {
     margin-top: 0;
 }
-
 
 .footer2 p{
     text-align: center;
     width: 600px;
 }
-
-
 
 @media(max-width:1200px){
     .workshop {
@@ -561,19 +537,19 @@ body, html{
         width: 70%;
         margin: 0 ;
     }
+
     #image-tocha {
         position: relative;
         left: -200px;
          display: none;
      }
+
      #image-tocha2 {
         position: relative;
         left: -200px;
          display: none;
      }
-
 }
-
 
 @media(max-width:990px){
     #image-tocha {
@@ -581,6 +557,7 @@ body, html{
        left: -200px;
         display: none;
     }
+
     iframe{
         width: 500px;
         height: 350px;
@@ -590,6 +567,7 @@ body, html{
         gap: 0;
         height: 100%;
     }
+
     .workshop2 {
         background-image: url(imagens/BG\ WS\ LP\ 1.png);
         background-repeat: no-repeat;
@@ -600,10 +578,11 @@ body, html{
         flex-wrap: wrap-reverse;
         color: white;
     }
+
     .zang-img, .workshop2-text {
-        margin: 0 auto;
-        
+        margin: 0 auto;  
     }
+
     .workshop2 img {
         margin-top: 0px;
         align-items: center;
@@ -614,6 +593,7 @@ body, html{
         text-align: center;
         padding: 0;
     }
+
     .left-align {
         background-color: black;
         text-align: center;
@@ -636,12 +616,12 @@ body, html{
         text-align: center;
     }
     
-    
     .button{
         margin-top: 0px;
         font-size: 1.1em;
         border-color: black;
     }
+
     .certificacao {
         padding: 0;
     }
@@ -650,6 +630,7 @@ body, html{
         flex-wrap: wrap;
         text-align: center;
     }
+
     .font3 {
         width: 100%;
     }
@@ -680,17 +661,21 @@ body, html{
     .workshop-description3 h1 {
         width: 70%;
     }
+
     .workshop-description3 p {
         width: 70%;
         text-align: center;
     }
+
     .mobile-row {
         display: flex;
         justify-content: center;
     }
+
     .flex-row {
         width: 40%;
     }
+
     .flex-center {
         gap: 0;
     }
@@ -700,32 +685,28 @@ body, html{
     .zang-img {
         width: 100%;
     }
+
     iframe {
         width: 100%;
         height: 250px;
     }
-    .workshop-description {
+
+    .workshop-description, .workshop-description3, .inscricao-area {
         width: 90%;
     }
 
-    .workshop-description3 {
-        width: 90%;
-    }
-    .inscricao-area {
-        width: 90%;
-    }
     .workshop2-text {
         width: 80%;
     }
+
     .footer2 p {
         width: 90%;
     }
+
     .footer-container {
         width: 90%;
     }
-    .sticker-title {
-        
-    }
+
     .datas {
         width: 90%;
         height: 100%;
@@ -738,11 +719,13 @@ body, html{
     .font4 {
         width: 100%;
     }
+
     .mobile-row {
         width: 100%;
         padding:0 ;
         align-items: flex-start;
     }
+
     .flex-row {
         text-align: left;
         width: 50%;
