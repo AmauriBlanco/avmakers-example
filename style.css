@@ -47,7 +47,7 @@ body, html{
 .flex {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px ;
@@ -94,7 +94,7 @@ body, html{
 }
 
 .inscricao-area {
-    height: 580px;
+    height: 600px;
 }
 
 .inscricao {
@@ -363,7 +363,6 @@ body, html{
 }
 
 .workshop3 {
-   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -372,11 +371,10 @@ body, html{
     gap: 15px;
 }
 .workshop-description3 {
-    
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 50%;
+    width: 45%;
     color: rgb(20, 1, 54);
 }
 
@@ -438,6 +436,11 @@ body, html{
     height: 520px;
     
 }
+
+.sticker-title3 {
+    display: none;
+}
+
 .inscricao-top-tiitle3 {
     font-size: 3em;
 }
@@ -452,7 +455,7 @@ body, html{
 
 .tape1 {
     position: relative;
-    top: -120%;
+    top: -113%;
     left: -20%;
 }
 
@@ -640,6 +643,17 @@ body, html{
         display: none;
     }
 
+    .sticker-title3 {
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: 30px;
+    }
+
+    .inscricao3, .inscricao {
+        margin: 0 auto;
+    }
+
     .workshop-description3 {
         text-align: center;
         justify-content: center;
@@ -685,7 +699,7 @@ body, html{
         width: 90%;
     }
     .workshop2-text {
-        width: 90%;
+        width: 80%;
     }
     .footer2 p {
         width: 90%;
